@@ -17,7 +17,7 @@ Invoke REST WS – apply for a loan
 - Since the boot application is started and configured we are ready to invoke a REST API to apply for a loan.
 
 
-Rules (for this demo)
+Business rules:
 -	Max amount allowed for a loan is retrieved from application.properties (for this demo) and is 10000.
 -	If a client applies for a loan with an amount > maximum => rejection
 -	If a client applies for a loan in the interval 0:00 – 6:00 AM (with maximum amount => rejection)

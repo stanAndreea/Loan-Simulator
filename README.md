@@ -1,23 +1,19 @@
 # loanSimulator
 Loan Simulator written in Java using Spring Boot framework
 
-How to run the application:
+## How to run the application:
 - mvn clean package
 - mvn spring-boot:run
 
 
-Environment:
+## Environment:
 -	Maven
 -	Java 1.8
 -	Spring Boot 2.1.9.RELEASE
 - H2 in memory database
 
 
-Invoke REST WS – apply for a loan
-- Since the boot application is started and configured we are ready to invoke a REST API to apply for a loan.
-
-
-Business rules:
+## Business rules:
 -	Max amount allowed for a loan is retrieved from application.properties (for this demo) and is 10000.
 -	If a client applies for a loan with an amount > maximum => rejection
 -	If a client applies for a loan in the interval 0:00 – 6:00 AM (with maximum amount => rejection)
@@ -27,7 +23,11 @@ Business rules:
 -	If no risk is involved on applying for a loan => client saved in db (if it does not already exists) + loan saved in db.
 
 
-Used Postman Chrome plugin for invoking the REST API:
+## Invoke REST WS – apply for a loan
+- Since the boot application is started and configured we are ready to invoke a REST API to apply for a loan.
+
+
+## Used Postman Chrome plugin for invoking the REST API:
 
 - URL: localhost:8080/apply/loan
 - HTTP method: POST

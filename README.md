@@ -36,3 +36,5 @@ Loan Simulator written in Java using Spring Boot framework
 - HTTP method: POST
 - Content-Type: application/json
 - Body (example): {"firstName":"Andreea", "surName":"Stan","identityCardNo":12345678,"amount":1000,"term":36}
+
+![loanRequest](https://user-images.githubusercontent.com/35422422/66910483-4e4b9100-f017-11e9-81fd-592f8dc0d0e5.jpg)

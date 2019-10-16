@@ -10,7 +10,10 @@ Loan Simulator written in Java using Spring Boot framework
 -	Maven
 -	Java 1.8
 -	Spring Boot 2.1.9.RELEASE
-- H2 in memory database
+- H2 in memory database - sample screenshot (how to access the H2 in memory database instance)
+
+![h2_database](https://user-images.githubusercontent.com/35422422/66910362-180e1180-f017-11e9-9d9e-0ebc20d3609d.jpg)
+
 
 
 ## Business rules:

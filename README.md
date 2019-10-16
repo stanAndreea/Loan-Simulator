@@ -1,6 +1,11 @@
 # loanSimulator
 Loan Simulator written in Java using Spring Boot framework
 
+How to run the application:
+- mvn clean package
+- mvn spring-boot:run
+
+
 Environment:
 -	Maven
 -	Java 1.8

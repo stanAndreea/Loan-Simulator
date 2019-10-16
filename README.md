@@ -29,8 +29,8 @@ Rules (for this demo)
 
 Used Postman Chrome plugin for invoking the REST API:
 
-URL: localhost:8080/apply/loan
-HTTP method: POST
-Content-Type: application/json
-Body (example): 
-{"firstName":"Andreea", "surName":"Stan","identityCardNo":12345678,"amount":1000,"term":36}
+- URL: localhost:8080/apply/loan
+- HTTP method: POST
+- Content-Type: application/json
+- Body (example): 
+-- {"firstName":"Andreea", "surName":"Stan","identityCardNo":12345678,"amount":1000,"term":36}

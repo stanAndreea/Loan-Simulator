@@ -10,7 +10,6 @@ Environment:
 -	Maven
 -	Java 1.8
 -	Spring Boot 2.1.9.RELEASE
--	Spring Tool Suite IDE
 - H2 in memory database
 
 
